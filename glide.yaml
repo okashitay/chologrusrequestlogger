@@ -1,0 +1,6 @@
+package: echologrusrequestlogger
+import:
+- package: github.com/Sirupsen/logrus
+- package: github.com/labstack/echo
+  subpackages:
+  - engine
